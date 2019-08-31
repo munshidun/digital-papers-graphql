@@ -3,35 +3,15 @@
 
 # Queries
 
-###### Fetch all subject
+###### Fetch all subjects with definitions
 
 ```
-{
-    subjects {
-        id
-        title
-    }
-}
-```
-
-###### Fetch all defintions
-
-```
-{
-    defintions {
-        id
-        definition
-    }
-}
-```
-
-###### Fetch all types
-
-```
-{
-    types {
-        id
-        name
-    }
+query Subjects {
+	subjects {
+		title
+		definitions {
+			definition
+		}
+	}
 }
 ```
