@@ -4,7 +4,23 @@ import { Subjects, Definitions, Types } from '../data'
 export const Resolvers: any = {
     Query: {
         greeting: (_, { name }) => `Hello ${name}`,
-        subjects: () => Subjects,
+    
+        subjects: (_, { typeId, typeName }) => {
+            
+            if (typeId) {
+                return Subjects.filter((subject: any) => subject.type == typeId)
+            }
+            
+            if (typeName) {
+                const type: any = Types.find((type: any) => type.name == typeName)
+                
+                if (!type) return null
+                
+                return Subjects.filter((subject: any) => subject.type == type.id)
+            }
+            
+            return Subjects
+        },
         defintions: () => Definitions,
         types: () => Types
     },

@@ -1,7 +1,7 @@
 export const Schema: string = `
     type Query {
         greeting(name: String = "World"): String
-        subjects: [Subject!]
+        subjects(typeId: Int, typeName: String): [Subject!]
         defintions: [Definition!]
         types: [Type!]
     }

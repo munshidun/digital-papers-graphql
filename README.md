@@ -3,6 +3,30 @@
 
 # Queries
 
+###### Fetch with filters
+
+```
+{
+    subjects(typeName: "Person") {
+		title
+		definitions {
+			definition
+		}
+	}
+}
+```
+
+```
+{
+    subjects(typeId: 1) {
+		title
+		definitions {
+			definition
+		}
+	}
+}
+```
+
 ###### Fetch all subjects with definitions
 
 ```
