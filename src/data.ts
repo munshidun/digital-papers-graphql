@@ -9,10 +9,14 @@ export const Subjects: Object[] = [
 
 export const Definitions: Object[] = [
     {
-        id: 1, definition: "Abdullah ibn Masud (c.594-c.653) was a companion of the Islamic prophet, Muhammad.",
+        id: 1,
+        definition: "Abdullah ibn Masud (c.594-c.653) was a companion of the Islamic prophet, Muhammad.",
+        subject: 1,
     },
     {
-        id: 2, definition: "Abd - servant, worshipper, slave. Muslims consider themselves servants and worshippers of Allah."
+        id: 2,
+        definition: "Abd - servant, worshipper, slave. Muslims consider themselves servants and worshippers of Allah.",
+        subject: 2,
     }
 ]
 
