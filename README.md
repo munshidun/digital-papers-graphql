@@ -24,3 +24,14 @@
     }
 }
 ```
+
+###### Fetch all types
+
+```
+{
+    types {
+        id
+        name
+    }
+}
+```
