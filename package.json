@@ -1,0 +1,32 @@
+{
+  "name": "digital-papers-graphql",
+  "version": "1.0.0",
+  "description": "The Golden Encyclopedia of Islam (GraphQL Service)",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munshidun/digital-papers-graphql.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "TypeScript",
+    "Glossary",
+    "Islam"
+  ],
+  "author": "Muhammad Najimov <munshidun@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/munshidun/digital-papers-graphql/issues"
+  },
+  "homepage": "https://github.com/munshidun/digital-papers-graphql#readme",
+  "devDependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
