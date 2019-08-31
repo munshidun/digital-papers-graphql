@@ -1,5 +1,5 @@
 export const Resolvers: any = {
     Query: {
-        greeting: () => `Hello World`
+        greeting: ( _, { name } ) => `Hello ${name}`
     }
 }

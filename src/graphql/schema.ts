@@ -1,5 +1,5 @@
 export const Schema: string = `
     type Query {
-        greeting: String
+        greeting(name: String = "World"): String
     }
 `
