@@ -3,35 +3,10 @@
 
 # Queries
 
-###### Fetch all subject
+###### greeting
 
 ```
 {
-    subjects {
-        id
-        title
-    }
-}
-```
-
-###### Fetch all defintions
-
-```
-{
-    defintions {
-        id
-        definition
-    }
-}
-```
-
-###### Fetch all types
-
-```
-{
-    types {
-        id
-        name
-    }
+    greeting
 }
 ```
