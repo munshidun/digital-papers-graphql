@@ -15,3 +15,19 @@ query Subjects {
 	}
 }
 ```
+
+###### Get subjects with full information
+
+```
+{
+    subjects {
+		title
+		type {
+			name
+		}
+		definitions {
+			definition
+		}
+	}
+}
+```

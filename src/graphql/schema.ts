@@ -10,6 +10,7 @@ export const Schema: string = `
         id: Int!
         title: String!
         definitions: [Definition!]
+        type: Type!
     }
     
     type Definition {

@@ -1,9 +1,9 @@
 export const Subjects: Object[] = [
     {
-        id: 1, title: "Abdullah ibn Masud",
+        id: 1, title: "Abdullah ibn Masud", type: 1
     },
     {
-        id: 2, title: "Abd"
+        id: 2, title: "Abd", type: 2
     }
 ]
 
