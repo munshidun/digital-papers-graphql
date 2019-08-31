@@ -6,5 +6,8 @@ export const Resolvers: any = {
         subjects: () => Subjects,
         defintions: () => Definitions,
         types: () => Types
-    }
+    },
+    Subject: {
+        definitions: (subject) => Definitions.filter( (def: any ) => def.subject == subject.id )
+    },
 }

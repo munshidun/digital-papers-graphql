@@ -9,11 +9,13 @@ export const Schema: string = `
     type Subject {
         id: Int!
         title: String!
+        definitions: [Definition!]
     }
     
     type Definition {
         id: Int!
         definition: String!
+        subject: Int!
     }
     
     type Type {
