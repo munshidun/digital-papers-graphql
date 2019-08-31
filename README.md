@@ -12,3 +12,15 @@
         title
     }
 }
+```
+
+###### Fetch all defintions
+
+```
+{
+    defintions {
+        id
+        definition
+    }
+}
+```
