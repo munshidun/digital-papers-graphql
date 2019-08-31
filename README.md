@@ -3,12 +3,12 @@
 
 # How to use?
 
+### Install dependencies
 ```
 npm install
 ```
 
-## Run service
-
+### Run GraphQL service
 ```
 npm start
 ```
