@@ -3,6 +3,22 @@
 
 # Queries
 
+###### greeting
+
+```
+{
+    greeting
+}
+```
+
+###### greeting with argument
+
+```
+{
+    greeting(name: "Muhammad")
+}
+```
+
 ###### Fetch all subject
 
 ```
